@@ -1,0 +1,69 @@
+section:nth-of-type(2n){
+    background-color: fuchsia;
+    border: 15px solid blue;
+}
+
+p{
+    line-height: 2;
+}
+
+* section{
+    font-size: 24px
+
+}
+
+section:nth-of-type(2n+1){
+    background-color: #ccc;
+    border-bottom: 12px double crimson;
+
+}
+
+dl{
+    color: white;
+    background-color: rgb(red, green, blue);
+}
+
+dt{
+    background-color: gray;
+    padding: 20px;
+}
+
+dd+dt{
+
+    line-height: 2;
+}
+
+ol li:nth-of-type(2n){
+    background-color: purple;
+    padding: 15px;
+}
+
+ol>li:nth-of-type(2n+1){
+    background-color: maroon;
+    padding: 15px;
+}
+
+ul li:nth-last-of-type(2n){
+    background-color: azure;
+    padding: 15px;
+}
+
+ul> li:nth-of-type(2n+1){
+    background-color: darkgoldenrod;
+    padding: 15px;
+}
+
+img[src^="http"]{
+    border-radius: 0 50px 0 50px;
+}
+
+img[src^="./media/"]{
+    border-radius: 50px 0 50px 0;
+
+}
+h1{
+    background-color: gold;
+    padding: 20px;
+
+}
+
